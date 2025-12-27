@@ -2,47 +2,121 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Promise | Portfolio</title>
+  <title>Promise Ikedinachi | Freelance Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>Promise Ikedinachi</h1>
-  <p>Web Developer • App Builder • Digital Creator</p>
+<header class="hero">
+  <h1>I Build Websites & Apps That Grow Businesses</h1>
+  <p>Freelance Web & App Developer</p>
+  <a href="#contact" class="btn">Hire Me</a>
 </header>
 
 <section>
-  <h2>About Me</h2>
-  <p>
-    I build websites, apps, and digital platforms that help businesses grow.
-  </p>
+  <h2>Services</h2>
+  <div class="cards">
+    <div class="card">Website Development</div>
+    <div class="card">App Development</div>
+    <div class="card">Landing Pages</div>
+    <div class="card">Business Websites</div>
+  </div>
 </section>
 
 <section>
-  <h2>Skills</h2>
-  <ul>
-    <li>Website Development</li>
-    <li>App Development</li>
-    <li>UI/UX Design</li>
-    <li>AI Tools</li>
-  </ul>
+  <h2>Skills & Tools</h2>
+  <p>HTML, CSS, JavaScript, GitHub, Vercel, Adalo, AI Tools</p>
 </section>
 
 <section>
   <h2>Projects</h2>
-  <p>Check my work on GitHub:</p>
-  <a href="https://github.com/Pro00126" target="_blank">My GitHub</a>
+  <p>Some of my recent work:</p>
+  <div id="projects" class="cards"></div>
 </section>
 
 <section>
-  <h2>Contact</h2>
+  <h2>Testimonials</h2>
+  <p>What clients say about my work</p>
+  <div class="cards">
+    <div class="card">
+      <p>“Promise delivered exactly what I needed. The website was clean, fast, and mobile-friendly. Highly recommended.”</p>
+      <strong>— Small Business Owner</strong>
+    </div>
+    <div class="card">
+      <p>“Great communication and quick delivery. He understood my idea and turned it into a functional platform.”</p>
+      <strong>— Startup Founder</strong>
+    </div>
+    <div class="card">
+      <p>“Very skilled developer. The project was completed on time and exceeded expectations.”</p>
+      <strong>— Online Entrepreneur</strong>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Pricing Packages</h2>
+  <p>Simple and transparent pricing</p>
+  <div class="cards pricing">
+    <div class="card">
+      <h3>Basic</h3>
+      <h1>₦25,000</h1>
+      <ul>
+        <li>1-page website</li>
+        <li>Mobile responsive</li>
+        <li>Basic design</li>
+        <li>Delivery in 3 days</li>
+      </ul>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
+
+    <div class="card featured">
+      <h3>Standard</h3>
+      <h1>₦60,000</h1>
+      <ul>
+        <li>Up to 5 pages</li>
+        <li>Modern UI design</li>
+        <li>Contact form</li>
+        <li>Deployment (Vercel)</li>
+        <li>Delivery in 5 days</li>
+      </ul>
+      <a href="#contact" class="btn">Most Popular</a>
+    </div>
+
+    <div class="card">
+      <h3>Premium</h3>
+      <h1>₦120,000</h1>
+      <ul>
+        <li>Full website / web app</li>
+        <li>Custom features</li>
+        <li>Admin panel</li>
+        <li>Free support</li>
+        <li>Delivery in 7–10 days</li>
+      </ul>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form" class="form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
   <p>Email: promiseikedinachi002@gmail.com</p>
+  <p>
+    <a href="https://wa.me/234XXXXXXXXXX" target="_blank">
+      Chat on WhatsApp
+    </a>
+  </p>
 </section>
 
 <footer>
-  <p>© 2025 Promise</p>
+  <p>© 2025 Promise Ikedinachi</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
