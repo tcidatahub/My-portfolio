@@ -34,9 +34,9 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
 
   emailjs.sendForm(
     "YOUR_SERVICE_ID",
-    "YOUR_TEMPLATE_ID",
+    "YOUR_TEMPLATE_ID",ID:template_mrx2boi
     this,
-    "YOUR_PUBLIC_KEY"
+    "YOUR_PUBLIC_KEY"NyH7b4RHB-5penJQk
   ).then(
     () => {
       alert("Message sent successfully!");
